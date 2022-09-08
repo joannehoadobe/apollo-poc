@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/apollo-poc" mode="merge"/>
+    <filter root="/content/apollo-poc" mode="merge"/>
+    <filter root="/content/dam/apollo-poc" mode="merge"/>
+    <filter root="/content/experience-fragments/apollo-poc" mode="merge"/>
+</workspaceFilter>

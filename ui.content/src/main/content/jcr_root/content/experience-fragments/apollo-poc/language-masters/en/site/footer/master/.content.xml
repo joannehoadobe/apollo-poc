@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-09-07T12:45:29.645-07:00"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/conf/apollo-poc/settings/wcm/templates/xf-web-variation"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Footer"
+        sling:resourceType="apollo-poc/components/xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="apollo-poc/components/container"
+            layout="simple">
+            <footer
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="apollo-poc/components/poc/structure/footer"
+                text="&lt;p>Copyright 2022, Apollo POC.&amp;nbsp;All rights reserved.&lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
+        </root>
+    </jcr:content>
+</jcr:root>
