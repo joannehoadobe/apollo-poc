@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:lastModified="{Date}2022-09-08T11:34:44.033-07:00"
+        cq:lastModified="{Date}2022-09-08T13:23:00.586-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/apollo-poc/settings/wcm/templates/news-article-page-template"
         jcr:primaryType="cq:PageContent"
@@ -40,6 +40,30 @@
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="apollo-poc/components/title"/>
+                    <date
+                        jcr:created="{Date}2022-09-07T16:20:48.933-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-09-07T16:20:48.933-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="apollo-poc/components/poc/content/date"
+                        editable="{Boolean}true"/>
+                    <container_1276258533
+                        jcr:created="{Date}2022-09-08T13:23:00.581-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-09-08T13:23:00.581-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="apollo-poc/components/container"
+                        editable="{Boolean}true"/>
+                    <experiencefragment_1485586843
+                        jcr:created="{Date}2022-09-08T12:53:35.150-07:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-09-08T13:20:28.481-07:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="apollo-poc/components/experiencefragment"
+                        fragmentVariationPath="/content/experience-fragments/apollo-poc/language-masters/en/site/news-source/master"/>
                 </container>
             </container>
             <experiencefragment

@@ -1,11 +1,11 @@
 <div class="bw-release-story" itemprop="articleBody">
     <p>
         <a href="https://www.globenewswire.com/NewsRoom/AttachmentNg/24205df4-cb1e-4a5f-89c1-5ebcc2e59b81">
-            <img src="https://ml.globenewswire.com/media/24205df4-cb1e-4a5f-89c1-5ebcc2e59b81/small/apollo-logo-ctr-rgb-pos-xl-png.png" border="0" width="150" height="23" alt="Primary Logo">
+            <img src="${properties.fileReference || 'https://ml.globenewswire.com/media/24205df4-cb1e-4a5f-89c1-5ebcc2e59b81/small/apollo-logo-ctr-rgb-pos-xl-png.png'}" border="0" width="150" height="23" alt="Primary Logo">
         </a>
     </p>
-    Source: <org value="NYSE:APO" idsrc="xmltag.org">Apollo Global Management, Inc.</org>
+    ${properties.sourceText @ context='html'}
 </div>
 <p class="back-to-link">
-    <a href="/media/press-releases" class="global-button">Back to Press Releases</a>
+    <a href="${properties.backLink}" class="global-button" data-sly-unwrap="${!properties.backLink}">${properties.backText || 'Back to Press Releases'}</a>
 </p>

@@ -22337,3 +22337,24 @@ h1.homepage-refresh-banner-content-title {
 .apollo-aem-col-full a:hover {
   text-decoration: underline;
 }
+.back-to-link {
+  display: block;
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+    font-family: 'Graphik SemiBold Web';
+}
+.back-to-link a {
+  padding: 10px;
+  background: #007D55;
+  color: #fff;
+  display: inline-block;
+  border: none;
+}
+.back-to-link a:hover{background:#0F3223 !important;color:#fff !important}
+.back-to-link a:focus{text-decoration:none}
+.newssource {
+  padding-left: 15px;
+  padding-right: 15px;
+}

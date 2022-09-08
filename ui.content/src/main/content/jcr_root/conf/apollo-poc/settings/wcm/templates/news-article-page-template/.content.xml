@@ -2,10 +2,10 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Template">
     <jcr:content
-        cq:lastModified="{Date}2022-09-08T11:34:44.033-07:00"
+        cq:lastModified="{Date}2022-09-08T13:26:34.589-07:00"
         cq:lastModifiedBy="admin"
         cq:templateType="/conf/apollo-poc/settings/wcm/template-types/page"
         jcr:primaryType="cq:PageContent"
         jcr:title="News Article Page Template"
-        status="draft"/>
+        status="enabled"/>
 </jcr:root>
