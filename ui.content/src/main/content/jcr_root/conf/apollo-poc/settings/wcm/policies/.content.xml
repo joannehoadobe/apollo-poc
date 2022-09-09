@@ -165,7 +165,7 @@
                     </rtePlugins>
                 </policy_641562756958017>
                 <policy_1662596102365
-                    jcr:lastModified="{Date}2022-09-08T10:36:01.825-07:00"
+                    jcr:lastModified="{Date}2022-09-08T12:17:01.269-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Text Policy"
@@ -284,6 +284,11 @@
                         <item0 jcr:primaryType="nt:unstructured">
                             <cq:styles jcr:primaryType="nt:unstructured">
                                 <item0
+                                    cq:styleClasses="apollo-aem-col-full"
+                                    cq:styleId="1662664594754"
+                                    cq:styleLabel="Full Width"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item1
                                     cq:styleClasses="apollo-aem-col-short"
                                     cq:styleId="1662596116420"
                                     cq:styleLabel="One Column"
@@ -480,6 +485,31 @@
                     layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_142669755585745>
+                <policy_150702554662631
+                    cq:styleDefaultClasses="apollo-news-container-fluid"
+                    cq:styleDefaultElement="div"
+                    jcr:lastModified="{Date}2022-09-08T12:12:31.829-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="News Article Container Policy"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    columns="1"
+                    components="group:Apollo POC - Content"
+                    layout="responsiveGrid"
+                    layoutDisabled="false">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_150702554662631>
+                <policy_155462361862540
+                    jcr:lastModified="{Date}2022-09-08T13:26:34.586-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="News Article Container Policy"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    components="group:Apollo POC - Content"
+                    layout="responsiveGrid"
+                    layoutDisabled="false">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_155462361862540>
             </container>
             <teaser jcr:primaryType="nt:unstructured">
                 <policy_1575031387650
