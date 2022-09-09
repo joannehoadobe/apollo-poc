@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-09-08T16:13:27.974-07:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/apollo-poc/settings/wcm/templates/simple-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Disclaimer"
+        sling:resourceType="apollo-poc/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="apollo-poc/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="apollo-poc/components/container"
+                layout="responsiveGrid">
+                <container
+                    jcr:created="{Date}2022-09-07T16:17:21.168-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-09-07T16:18:01.661-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="apollo-poc/components/container"/>
+                <title
+                    jcr:created="{Date}2022-09-07T16:26:27.048-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-09-07T16:26:27.048-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="apollo-poc/components/title"/>
+                <text
+                    cq:styleIds="[1662596116420]"
+                    jcr:created="{Date}2022-09-08T16:13:10.784-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-09-08T16:13:24.769-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="apollo-poc/components/text"
+                    text="&lt;p>&lt;b>Global Disclaimer&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>This message has been prepared by personnel employed by Apollo Global Management, Inc., its subsidiaries or affiliates. This email and any files transmitted with it are confidential and intended solely for the person or entity to whom they are addressed and may contain confidential and/or privileged material. Any review, retransmission, dissemination or other use of, or taking of any action in reliance upon this information by persons or entities other than the intended recipient is prohibited. If you have received this email in error, please contact the sender and delete the material from any computer. Do not copy, use, or disclose to others the content of this communication. No confidentiality or privilege is waived or lost by any transmission errors.&amp;nbsp;&lt;/p>&#xd;&#xa;&lt;p>&lt;b>Capital Markets Disclaimer&amp;nbsp;&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>This material is for your private information and is for discussion purposes only. Except as otherwise expressly provided, this material does not constitute an offer to sell or the solicitation of an offer to purchase any security or any product, service or fund. The information contained herein may have been obtained from sources that we consider to be reliable, but we make no representation as to, and accept no responsibility or liability for, the accuracy or completeness of the information contained herein. Any indication of past performance is not indicative of future results. Any projections, valuations and statistical analyses contained herein have been provided to assist you in the evaluation of the matters described herein; such projections, valuations and analyses may be based on subjective assessments and assumptions and may utilize one or more alternative methodologies that produce differing results; accordingly, such projections, valuations and statistical analyses should not be relied upon as an accurate representation of future events. You should make an independent evaluation and judgment with respect to the matters referred to herein, including discussing such matters with your professional tax, legal, accounting or other advisers, as appropriate. Apollo Global Securities, LLC, a subsidiary of Apollo Global Management, Inc., is a broker-dealer registered with the U.S. Securities and Exchange Commission and a member of FINRA and SIPC. Griffin Capital Securities, LLC, a subsidiary of Apollo Global Management, Inc., is a broker-dealer registered with the U.S. Securities and Exchange Commission and a member of FINRA and SIPC.&lt;/p>&#xd;&#xa;&lt;p>&lt;b>Privacy Policy&amp;nbsp;&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>Please refer to our&amp;nbsp;&lt;a href=&quot;https://www.apollo.com/site-services/privacy-policy&quot;>Privacy Policy&lt;/a>&amp;nbsp;for additional important information on how Apollo Global Management, Inc. gathers and uses personal information about you when you communicate with us, how we protect and share this information, and the rights you may have in relation to this information.&lt;/p>&#xd;&#xa;&lt;p>&lt;b>European Disclosures&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>Please refer to our&amp;nbsp;&lt;a href=&quot;https://www.apollo.com/site-services/global-disclosures&quot;>European Disclosures&lt;/a>&amp;nbsp;for list of our European regulated entities.&lt;/p>&#xd;&#xa;"
+                    textIsRich="true"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

@@ -1,3 +1,4 @@
 #base=js
 
+#resourcehandler.js
 video.js

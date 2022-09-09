@@ -3,4 +3,4 @@
     jcr:primaryType="cq:Component"
     jcr:title="Mini Teaser Image"
     sling:resourceSuperType="core/wcm/components/image/v3/image"
-    componentGroup="Apollo POC - Content"/>
+    componentGroup=".hidden"/>

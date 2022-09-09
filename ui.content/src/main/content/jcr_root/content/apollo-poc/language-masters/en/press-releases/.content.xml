@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-09-08T16:06:54.295-07:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/apollo-poc/settings/wcm/templates/simple-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Press Releases"
+        sling:resourceType="apollo-poc/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="apollo-poc/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="apollo-poc/components/container"
+                layout="responsiveGrid">
+                <container
+                    jcr:created="{Date}2022-09-07T16:17:21.168-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-09-07T16:18:01.661-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="apollo-poc/components/container"/>
+                <title
+                    jcr:created="{Date}2022-09-07T16:26:27.048-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-09-07T16:26:27.048-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="apollo-poc/components/title"/>
+            </container>
+        </root>
+    </jcr:content>
+    <apollo-funds-complete-sale-leaseback-transaction-with-gol/>
+    <apollo-to-present-at-barclays-global-financial-services-conferen/>
+</jcr:root>

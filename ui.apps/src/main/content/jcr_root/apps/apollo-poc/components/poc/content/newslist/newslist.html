@@ -73,13 +73,5 @@
             </div>
         </div>
     </div>
-    <!--/*    data-sly-list.item="${list.listItems}"
-    <li data-sly-test="${!list.displayItemAsTeaser}"
-        class="cmp-list__item" data-sly-call="${itemTemplate.item @ list = list, item = item}"
-        data-cmp-data-layer="${item.data.json}"></li>
-    <li data-sly-test="${list.displayItemAsTeaser && item.teaserResource}"
-        class="cmp-list__item" data-sly-call="${teaserTemplate.teaser @ item = item}"
-        data-cmp-data-layer="${item.data.json}"></li>
-        */-->
 </div>
 <sly data-sly-call="${template.placeholder @ isEmpty=list.listItems.size == 0, classAppend='cmp-list'}"></sly>

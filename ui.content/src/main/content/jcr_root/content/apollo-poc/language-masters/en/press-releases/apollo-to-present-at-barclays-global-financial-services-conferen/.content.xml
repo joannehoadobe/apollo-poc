@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-09-08T16:12:48.085-07:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/apollo-poc/settings/wcm/templates/news-article-page-template"
+        jcr:description="NEW YORK, Sept. 07, 2022 (GLOBE NEWSWIRE) -- Apollo (NYSE: APO) today announced that Martin Kelly, Chief Financial Officer, will present at the Barclays Global Financial Services Conference on Tuesday, September 13, 2022 at 2:45 pm ET."
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Apollo to Present at Barclays Global Financial Services Conference"
+        sling:resourceType="apollo-poc/components/page"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any"
+        themeinheritance="true">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="apollo-poc/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="apollo-poc/components/container"
+                layout="responsiveGrid">
+                <container
+                    jcr:created="{Date}2022-09-07T16:17:21.168-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-09-08T16:11:55.493-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="apollo-poc/components/container"
+                    id="MainWrapper"
+                    layout="responsiveGrid"/>
+                <title
+                    jcr:created="{Date}2022-09-07T16:26:27.048-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-09-07T16:26:27.048-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="apollo-poc/components/title"/>
+                <date
+                    jcr:created="{Date}2022-09-07T16:20:48.933-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-09-08T16:11:09.908-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="apollo-poc/components/poc/content/date"
+                    date="{Date}2022-09-07T00:00:00.000-07:00"/>
+                <text
+                    cq:styleIds="[1662664594754]"
+                    jcr:created="{Date}2022-09-08T16:11:17.567-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-09-08T16:11:39.099-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="apollo-poc/components/text"
+                    text="&lt;p>NEW YORK,&amp;nbsp;Sept. 07, 2022&amp;nbsp;(GLOBE NEWSWIRE) -- Apollo (NYSE: APO) today announced that&amp;nbsp;Martin Kelly, Chief Financial Officer, will present at the&amp;nbsp;Barclays Global Financial Services Conference&amp;nbsp;on&amp;nbsp;Tuesday, September 13, 2022&amp;nbsp;at&amp;nbsp;2:45 pm ET.&lt;br>&#xd;&#xa;&lt;/p>&#xd;&#xa;&lt;p>A live webcast of the event will be accessible at&amp;nbsp;&lt;a href=&quot;https://www.globenewswire.com/Tracker?data=-G70r7xnAdAxMc-nfRLYPY-4wfsqssaGBDBHIJOa1xvDmX8lmrPCTdQYCYnFi7QGu0Q0CBGsTda_IuYRFIVytAFi_Nt8d1mZOyuouYqEQxRnJoYRB_1sIO5osiM2keEtMhYvcbdBxBmyrmF75el2vl_II8Usv6EgyR26tvUgF5m11EFKh7DWqr2xNwPZxNZCHKukZ7zAFJdBRnz0OHJOwITCzKgCDuzZDrtzHUEVrQ56rx0zqjEB_2CX4kfICadg9VcqkYAXDyk0gBWYslV9gg==&quot;>https://www.apollo.com/stockholders/apollo-global-management-inc/events-and-presentations&lt;/a>. A replay will be available following the conclusion of the event.&lt;/p>&#xd;&#xa;&lt;p>&lt;b>About Apollo&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>Apollo is a high-growth, global alternative asset manager. In our asset management business, we seek to provide our clients excess return at every point along the risk-reward spectrum from investment grade to private equity with a focus on three investing strategies: yield, hybrid, and equity. For more than three decades, our investing expertise across our fully integrated platform has served the financial return needs of our clients and provided businesses with innovative capital solutions for growth. Through Athene, our retirement services business, we specialize in helping clients achieve financial security by providing a suite of retirement savings products and acting as a solutions provider to institutions. Our patient, creative, and knowledgeable approach to investing aligns our clients, businesses we invest in, our employees, and the communities we impact, to expand opportunity and achieve positive outcomes. As of&amp;nbsp;June 30, 2022, Apollo had approximately&amp;nbsp;$515 billion&amp;nbsp;of assets under management. To learn more, please visit&amp;nbsp;&lt;a href=&quot;https://www.globenewswire.com/Tracker?data=xahYPE6HG5yYGxp3ETbsowYBuT2P7p-nJAkaBH4pKMsaR4Ect_-TqOTzLt_C9aoDMoHy3g4BEriqZDX_KEjmTg==&quot;>www.apollo.com&lt;/a>.&lt;/p>&#xd;&#xa;&lt;p>&lt;b>Contact Information&lt;/b>&lt;/p>&#xd;&#xa;&lt;p>&lt;b>For investors:&lt;/b>&lt;br>&#xd;&#xa;Noah Gunn&lt;br>&#xd;&#xa;Global Head of Investor Relations&lt;br>&#xd;&#xa;Apollo Global Management, Inc.&lt;br>&#xd;&#xa;(212) 822-0540&lt;br>&#xd;&#xa;&lt;a href=&quot;mailto:IR@apollo.com&quot;>IR@apollo.com&lt;/a>&lt;/p>&#xd;&#xa;&lt;p>&lt;b>For media:&lt;/b>&lt;br>&#xd;&#xa;Joanna Rose&lt;br>&#xd;&#xa;Global Head of Corporate Communications&lt;br>&#xd;&#xa;Apollo Global Management, Inc.&lt;br>&#xd;&#xa;(212) 822 0491&lt;br>&#xd;&#xa;&lt;a href=&quot;mailto:Communications@apollo.com&quot;>Communications@apollo.com&lt;/a>&lt;/p>&#xd;&#xa;"
+                    textIsRich="true"/>
+                <experiencefragment_1485586843
+                    jcr:created="{Date}2022-09-08T12:53:35.150-07:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-09-08T12:53:35.150-07:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="apollo-poc/components/experiencefragment"
+                    fragmentVariationPath="/content/experience-fragments/apollo-poc/language-masters/en/site/news-source/master"/>
+            </container>
+        </root>
+        <cq:featuredimage
+            jcr:lastModified="{Date}2022-09-08T16:12:48.069-07:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/image/v3/image"
+            altValueFromDAM="false"/>
+    </jcr:content>
+</jcr:root>

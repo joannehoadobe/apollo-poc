@@ -26,16 +26,18 @@
     data-cmp-data-layer="${teaser.data.json}">
     <div class="homepage-refresh-banner" style="background-image:url(${teaser.imageResource.fileReference @ context='text'}); background-repeat: no-repeat; background-size: cover; background-position: top;">
         <div id="videoPlayer1" class="homepage-refresh-banner-bg-video-desktop inv_playerContainer inv_desktop inv_bannerPlayer inv_playerReady applyhover inv_videoReady inv_videoPaused" inv_videodatatype="brightcove" inv_videoid="apollo148" inv_playertype="singleplayer" inv_autoplay="true" inv_isbanner="true" inv_loopenabled="true" inv_overlayplay="false">
-            <div class="inv_videoMainContainer inv_mouseLeave">
+            <div class="inv_videoMainContainer inv_mouseLeave" data-sly-test="${teaser.imageResource}">
                 <div class="inv_videoMainContainer_inner">
                     <div class="inv_videoDisplay">
                         <div class="inv_videoLoaderArea" style="display: none;"></div>
                         <div class="inv_overlayPlay inv_noimage"></div>
                         <div class="inv_videoStillArea" style="display: block;">
-                            <img src="https://cf-images.us-east-1.prod.boltdns.net/v1/jit/5762013501001/76f7491d-59d4-495b-8ebb-d6d684e4e974/main/1280x720/2s549ms/match/image.jpg">
+                            <img src="${teaser.imageResource.fileReference}">
+                            <!--https://cf-images.us-east-1.prod.boltdns.net/v1/jit/5762013501001/76f7491d-59d4-495b-8ebb-d6d684e4e974/main/1280x720/2s549ms/match/image.jpg"-->
                         </div>
                         <div class="inv_videoArea" referenceid="apollo148">
-                            <img src="https://cf-images.us-east-1.prod.boltdns.net/v1/jit/5762013501001/76f7491d-59d4-495b-8ebb-d6d684e4e974/main/1280x720/2s549ms/match/image.jpg">
+                            <img src="${teaser.imageResource.fileReference}">
+                            <!--https://cf-images.us-east-1.prod.boltdns.net/v1/jit/5762013501001/76f7491d-59d4-495b-8ebb-d6d684e4e974/main/1280x720/2s549ms/match/image.jpg"-->
                             <video id="inv_VideoPlayer_1662509588792" width="100%" height="100%" playsinline="" muted="" loop="loop">
                                 <source src="https://bcbolt446c5271-a.akamaihd.net/media/v1/pmp4/static/clear/5762013501001/76f7491d-59d4-495b-8ebb-d6d684e4e974/75eda333-a22e-4c0f-9c46-f2cb8b5f249f/main.mp4?akamai_token=exp=1662511170~acl=/media/v1/pmp4/static/clear/5762013501001/76f7491d-59d4-495b-8ebb-d6d684e4e974/75eda333-a22e-4c0f-9c46-f2cb8b5f249f/main.mp4*~hmac=2379ad08b6e80c72cb53b5b54d4cff3f3bbf6d7d1c3b122bd6302a47ce93f659" type="video/mp4">
                                 Your browser does not support the video tag.
@@ -117,91 +119,3 @@
     </div>
 </div>
 <sly data-sly-call="${templates.placeholder @ isEmpty=!hasContent, classAppend='cmp-teaser'}"></sly>
-<!--
-<div class="homepage-refresh-banner" style="background-image:url(https://www.apollo.com/~/media/Images/A/Apollo-V3/banners/homepage-refresh-poster-image.jpeg); background-repeat: no-repeat; background-size: cover; background-position: top;">
-    <div id="videoPlayer1" class="homepage-refresh-banner-bg-video-desktop inv_playerContainer inv_desktop inv_bannerPlayer inv_playerReady applyhover inv_videoReady inv_videoPaused" inv_videodatatype="brightcove" inv_videoid="apollo148" inv_playertype="singleplayer" inv_autoplay="true" inv_isbanner="true" inv_loopenabled="true" inv_overlayplay="false">
-        <div class="inv_videoMainContainer inv_mouseLeave">
-            <div class="inv_videoMainContainer_inner">
-                <div class="inv_videoDisplay">
-                    <div class="inv_videoLoaderArea" style="display: none;"></div>
-                    <div class="inv_overlayPlay inv_noimage"></div>
-                    <div class="inv_videoStillArea" style="display: block;">
-                        <img src="https://cf-images.us-east-1.prod.boltdns.net/v1/jit/5762013501001/76f7491d-59d4-495b-8ebb-d6d684e4e974/main/1280x720/2s549ms/match/image.jpg">
-                    </div>
-                    <div class="inv_videoArea" referenceid="apollo148">
-                        <img src="https://cf-images.us-east-1.prod.boltdns.net/v1/jit/5762013501001/76f7491d-59d4-495b-8ebb-d6d684e4e974/main/1280x720/2s549ms/match/image.jpg">
-                        <video id="inv_VideoPlayer_1662509588792" width="100%" height="100%" playsinline="" muted="" loop="loop">
-                            <source src="https://bcbolt446c5271-a.akamaihd.net/media/v1/pmp4/static/clear/5762013501001/76f7491d-59d4-495b-8ebb-d6d684e4e974/75eda333-a22e-4c0f-9c46-f2cb8b5f249f/main.mp4?akamai_token=exp=1662511170~acl=/media/v1/pmp4/static/clear/5762013501001/76f7491d-59d4-495b-8ebb-d6d684e4e974/75eda333-a22e-4c0f-9c46-f2cb8b5f249f/main.mp4*~hmac=2379ad08b6e80c72cb53b5b54d4cff3f3bbf6d7d1c3b122bd6302a47ce93f659" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                </div>
-            </div>
-            <div class="inv_videoControls">
-                <div class="inv_playPauseBtn inv_playBtn"></div>
-                <div class="inv_startTime">00:00</div>
-                <div class="inv_playheadWellContainer">
-                    <div class="inv_playhead inv_initialPlayhead" style="left: 0%;">
-                        <div class="inv_playheadCircle"></div>
-                    </div>
-                    <div class="inv_playheadWellWatched inv_initialPlayheadwell" style="width: 0%;"></div>
-                    <div class="inv_playheadWellBuffered inv_initialPlayheadwell" style="width: 100%;"></div>
-                    <div class="inv_playheadWell"></div>
-                </div>
-                <div class="inv_endTime">00:05</div>
-                <div class="inv_soundContainer">
-                    <div class="inv_soundOnOffBtn inv_soundOnBtn"></div>
-                    <div class="inv_soundControl">
-                        <div id="inv_volumepillor_10" class="inv_volumepillor"></div>
-                        <div id="inv_volumepillor_9" class="inv_volumepillor"></div>
-                        <div id="inv_volumepillor_8" class="inv_volumepillor"></div>
-                        <div id="inv_volumepillor_7" class="inv_volumepillor"></div>
-                        <div id="inv_volumepillor_6" class="inv_volumepillor"></div>
-                        <div id="inv_volumepillor_5" class="inv_volumepillor inv_volumepillorClicked inv_volumepillorHead"></div>
-                        <div id="inv_volumepillor_4" class="inv_volumepillor inv_volumepillorClicked"></div>
-                        <div id="inv_volumepillor_3" class="inv_volumepillor inv_volumepillorClicked"></div>
-                        <div id="inv_volumepillor_2" class="inv_volumepillor inv_volumepillorClicked"></div>
-                        <div id="inv_volumepillor_1" class="inv_volumepillor inv_volumepillorClicked"></div>
-                    </div>
-                </div>
-                <div class="inv_fullscreenBtn"></div>
-            </div>
-        </div>
-        <ul id="MyMenu" class="contextMenu">
-            <li>
-                <a href="http://www.investis.com" target="_blank">Delivered by Investis // www.investis.com</a>
-            </li>
-            <li>
-                <a style="cursor: default;">Version 2.0</a>
-            </li>
-        </ul>
-    </div>
-    <div class="refresh-banner-tablet-image"><img src="https://www.apollo.com/~/media/Images/A/Apollo-V3/banners/apollo-refresh-tablet-new.png?h=591&amp;iar=0&amp;w=834" alt="Refresh Homepage Banner" width="834" height="591"></div>
-    <div class="refresh-banner-mobile-image"><img src="https://www.apollo.com/~/media/Images/A/Apollo-V3/banners/apollo-refresh-mobile-new.png?h=413&amp;iar=0&amp;w=375" alt="Refresh Homepage Banner" width="375" height="413"></div>
-    <div class="homepage-refresh-banner-content-wrapper homepage-refresh-with-video" style="background-color: #d1cec6">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6 col-sm-12 col-xs-12">
-                    <div>
-                        <h1 class="homepage-refresh-banner-content-title">Investing in <br>tomorrow, today.</h1>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-12 col-xs-12 homepage-refresh-banner-description-wrapper">
-                    <div class="homepage-refresh-banner-description-title">Apollo is a high-growth alternative asset manager</div>
-                    <div class="homepage-refresh-banner-description">
-                        <p>Our asset management business provides companies with innovative capital solutions and support to fund their growth and build stronger businesses. Our retirement services business, <a rel="noopener noreferrer" href="https://www.athene.com" target="_blank" title="Opens in a new window">Athene</a>, provides a suite of retirement savings products to help clients achieve financial security.</p>
-                        <p>Across all parts of our business, we invest alongside our clients and take a responsible, knowledgeable approach to drive positive outcomes. At Apollo, Expanding Opportunity is core to our values, and we are dedicated to creating opportunities for more companies, employees and communities to build a more inclusive and sustainable economy.</p>
-                    </div>
-                    <a class="btn-new" href="https://www.apollo.com/about-apollo">Learn more </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script>
-        $j(function() {
-          var videoPlayerInstance = $j("#videoPlayer1");
-          videoPlayerInstance.InvPlayer();
-        });
-    </script>
-</div>
--->

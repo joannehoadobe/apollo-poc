@@ -11,7 +11,6 @@
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="apollo-poc/components/container"
-            id="MainWrapper"
             layout="responsiveGrid">
             <experiencefragment-header
                 jcr:primaryType="nt:unstructured"
